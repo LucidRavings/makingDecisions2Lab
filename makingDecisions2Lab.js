@@ -46,7 +46,12 @@ let evensArr = []
 */
 
 //Code Here
-
+for (i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0){
+    evensArr.push (nums[i])
+  }
+}
+console.log(e="evensArr contains:", evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -60,6 +65,19 @@ var score = 74
 */
 
 //Code Here
+let grades = ["A", "B", "C", "D", "F"]
+if (score >= 90){
+  grade = grades[0]
+}else if (score >= 80){
+  grade = grades [1]
+}else if (score >= 70){
+  grade = grades [2]
+}else if (score >= 60){
+  grade = grades [3]
+}else{
+  grade = grades [4]
+}
+ console.log("Your grade is " + grade + ", good job!")
 
 
 ////////// Intermediate Problems //////////

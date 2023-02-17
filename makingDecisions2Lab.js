@@ -103,8 +103,7 @@ someNum = myFavoriteNumbers[4]
 //Code Here
 if (myFavoriteNumbers.length < 7){
   console.log("There are not enough elements in this array")
-}
-if (myFavoriteNumbers.length > 7){
+}else{
   someNum = myFavoriteNumbers[6]
   console.log("someNum reassigned", someNum)
 }
